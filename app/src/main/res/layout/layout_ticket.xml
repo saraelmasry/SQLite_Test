@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="UserName" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="delete"/>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
+
+
+</LinearLayout>
